@@ -1,0 +1,97 @@
+<div class="row">
+    <!-- box at horizontally center-->
+    <div class="col-lg-11 col-xl-9 mx-auto">
+
+        <div class="card">
+
+            <div class="card-header bg-secondary text-white">
+                <h1>Profile Wizard</h1>
+            </div>
+
+            <div class="card-body">
+                <!-- box 1 starts -->
+                <div class="box-1 rounded">
+                    <div class="row m-0">
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px green">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px">1</span>
+                            </div>
+                            <div>
+                                <h5>Personal Details</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px green">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px">2</span>
+                            </div>
+                            <div>
+                                <h5>Contact Details</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px green">
+                            <div>
+                                <span class="badge badge-pill badge-success p-4" style="font-size:30px">3</span>
+                            </div>
+                            <div>
+                                <h5>Skills</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4">
+                            <div>
+                                <span class="badge badge-pill badge-secondary p-4" style="font-size:30px">4</span>
+                            </div>
+                            <div>
+                                <h5>Work Experience</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 1 ends -->
+
+                <!-- box 2 starts -->
+                <div class="box-2 pt-2">
+                    <h3>Step 3: Skills Details</h3>
+
+                    <div class="row">
+                        <div class="col-xl-9 mx-auto mt-3">
+
+                            <!-- Skill-1 -->
+                            <div class="form-group form-row">
+                                <label for="skill-1" class="col-md-3 col-form-label">Skill 1</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="skill-1" id="skill-1">
+                                </div>
+                            </div>
+
+                            <!-- Skill-2 -->
+                            <div class="form-group form-row">
+                                <label for="skill-2" class="col-md-3 col-form-label">Skill 2</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="skill-2" id="skill-2">
+                                </div>
+                            </div>
+
+                            <!-- Skill-3 -->
+                            <div class="form-group form-row">
+                                <label for="skill-3" class="col-md-3 col-form-label">Skill 3</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="skill-3" id="skill-3">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- box 2 ends -->
+            </div>
+
+            <div class="card-footer text-right">
+                <a class="btn btn-warning mr-2" [routerLink]=" [ '/step-2' ] ">Back</a>
+                <a class="btn btn-success" [routerLink]=" [ '/step-4' ] ">Next</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
